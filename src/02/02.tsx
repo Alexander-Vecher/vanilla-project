@@ -1,4 +1,4 @@
-const student = {
+export const student = {
     id: 1,
     name: "Ivan",
     age: 23,
@@ -25,3 +25,10 @@ const student = {
         }
     ]
 }
+
+console.log(student.name)
+console.log(student.age)
+console.log(student.address.city.countryTitle)
+console.log(student.address.city.title)
+console.log(student.address.streetTitle)
+console.log(student.technologies[1].title)
