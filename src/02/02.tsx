@@ -1,4 +1,6 @@
-export const student = {
+import {StydentType} from "./02_02";
+
+export const student: StydentType = {
     id: 1,
     name: "Ivan",
     age: 23,
