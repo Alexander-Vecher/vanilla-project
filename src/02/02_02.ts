@@ -1,6 +1,6 @@
 import * as string_decoder from "string_decoder";
 
-export type StydentType={
+export type StudentType={
     id:number
     name:string
     age:number
