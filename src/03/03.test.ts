@@ -1,4 +1,6 @@
-test('new tech skill should be added to student', () => {
+import {student} from "../02/02";
+
+('new tech skill should be added to student', () => {
     expect(student.technologies.length).toBe(3)
     addSkill(student, 'JS')
     expect(student.technologies.length).toBe(4)
