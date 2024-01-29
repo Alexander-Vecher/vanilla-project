@@ -20,3 +20,15 @@ export const changeBudget=(building:GoverType, money:number)=>{
     return building.budget+=money;
 
 }
+export const repairHouse=(building:GoverType, money:number)=>{
+    return building.budget+=money;
+
+}
+export const toFireStaff=(building:GoverType, money:number)=>{
+    return building.budget+=money;
+
+}
+export const toHireStaff=(building:GoverType, money:number)=>{
+    return building.budget+=money;
+
+}

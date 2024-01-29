@@ -1,5 +1,13 @@
 import { StudentType, CityType} from "../02/02_02";
-import {addSkill, changeBudget, changeStudentLive, makeStudentActive} from "./03";
+import {
+    addSkill,
+    changeBudget,
+    changeStudentLive,
+    makeStudentActive,
+    repairHouse,
+    toFireStaff,
+    toHireStaff
+} from "./03";
 
 let student: StudentType
 let city: CityType
